@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+body,
+html {
+    font-family: "DM Sans", sans-serif;
+    min-height: 100vh;
+    max-width: 100vw;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.mx-half {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.ml-1 {
+    margin-left: 1rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.py-1 {
+    padding: 1rem 0;
+}
+
+.side-margin {
+    margin-left: 16rem;
+    margin-right: 16rem;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.problem {
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.category {
+    background: #34c5cd;
+    color: white;
+    border-radius: 20px;
+    padding: 0 0.7rem;
+}
+
+.category-select {
+    padding: 0.5rem;
+    border-radius: 5px;
+    background: white;
+}
+
+.problem-ungraded {
+    background: #fbfbfc;
+    border: 1px solid #dcdcdc;
+}
+
+.problem-correct {
+    background: #f5fdf7;
+    border: 1px solid #9aedb0;
+}
+
+.problem-incorrect {
+    background: #fff6f7;
+    border: 1px solid #ffd1d2;
+}
+
+.grade-text {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.text-correct,
+.num-correct-text {
+    color: #00d137;
+}
+
+.text-incorrect,
+.num-incorrect-text {
+    color: #ca0028;
+}
+
+.circle-text {
+    display: inline-flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+.num-correct-text {
+    background: #d6f8df;
+}
+
+.num-incorrect-text {
+    background: #ffdbe2;
+}
+
+.problem-submit {
+    padding: 0.3rem;
+    border: 1px solid #dcdcdf;
+    font-size: 1.2rem;
+    max-width: 30vw;
+}
+
+.submit-btn {
+    background: #344bcd;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.submit-btn:disabled {
+    background: #a7a7a9;
+}
+
+@media screen and (max-width: 1000px) {
+    .side-margin {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+}
+
+.content {
+    min-height: 100vh;
+}
+
+.bottom-ref {
+    height: 10px;
+    background: transparent;
+}
